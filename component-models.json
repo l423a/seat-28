@@ -28,27 +28,7 @@
             "name": "h3",
             "value": "h3"
           },
-          {
-            "id": "quote",
-            "fields": [
-            {
-            "component": "richtext",
-            "name": "quote",
-            "value": "",
-            "label": "Quote",
-            "valueType": "string"
-            },
-            {
-            "component": "text",
-            "valueType": "string",
-            "name": "author",
-            "label": "Author",
-            "value": ""
-            }
-            ]
-            },
-            
-          {
+                    {
             "name": "h4",
             "value": "h4"
           },
@@ -205,5 +185,24 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+    "id": "quote",
+    "fields": [
+    {
+    "component": "richtext",
+    "name": "quote",
+    "value": "",
+    "label": "Quote",
+    "valueType": "string"
+    },
+    {
+    "component": "text",
+    "valueType": "string",
+    "name": "author",
+    "label": "Author",
+    "value": ""
+    }
+    ]
+    }
 ]
